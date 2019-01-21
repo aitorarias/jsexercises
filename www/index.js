@@ -1,21 +1,21 @@
 //Test
 
-//SOLUCION SEGUNDO EJERCICIO.
+// function isEven(n) {
+//   return n % 2 == 0;
+// }
 
-function hoistExample() {
-  console.log("Value of a in local scope: ", a);
+// function isOdd(n) {
+//   return Math.abs(n % 2) == 1;
+// }
+
+// console.log(isEven(4));
+
+function isOddOrEven(i) {
+  if (i & 1) {
+    return "Es impar";
+  } else {
+    return "Es par";
+  }
 }
-a = 10;
-console.log("Value of a in global scope: ", a);
 
-hoistExample();
-
-//¿Cómo actúa el hoisting?
-
-var a = 10;
-function hoistExample() {
-  console.log("Value of a in local scope: ", a);
-}
-console.log("Value of a in global scope: ", a);
-
-hoistExample();
+console.log(isOddOrEven(prompt("¿Que numero es?")));
