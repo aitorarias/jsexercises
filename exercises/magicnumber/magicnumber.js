@@ -1,5 +1,5 @@
 let max = 20;
-let min = 1; //
+let min = 1;
 let random = Math.random() * (max - min) + min;
 random = parseInt(random);
 

@@ -1,16 +1,19 @@
-//Test
+let max = 20;
+let min = 1;
+let random = Math.random() * (max - min) + min;
+random = parseInt(random);
 
-// function isEven(n) {
-//   return n % 2 == 0;
-// }
+while (true) {
+  let user = prompt("Pon un número");
 
-// function isOdd(n) {
-//   return Math.abs(n % 2) == 1;
-// }
-
-// console.log(isEven(4));
-
-let a = +prompt("Primer numero");
-let b = +prompt("Segundo numero");
-alert(a * b);
-console.log(a * b);
+  if (user == random) {
+    alert("¡Has acertado! 🎉");
+    break;
+  } else if (user == 0) {
+    break;
+  } else if (user < random) {
+    alert("El numero es menor que el numero magico. Inténtalo de nuevo 🕳️");
+  } else if (user > random) {
+    alert("EL numero es mayor que el numero magico Inténtalo de nuevo 🕳️");
+  }
+}
