@@ -1,4 +1,4 @@
-#DNI
+# DNI
 
 Cada número de DNI tiene asociada una letra. Esta letra no es aleatoria, ni mucho menos. Esa letra depende del resto obtenido entre la division de tu número de DNI y el total de las letras contempladas por el Ministerio (se obvia la letra Ñ y la O, porque puede dar lugar a confusión): un total de 23.
 

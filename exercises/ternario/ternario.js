@@ -1,5 +1,3 @@
-//Test
-
 let person = {
   name: prompt("¿Cómo te llamas?"),
   driver: null,
