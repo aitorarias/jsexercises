@@ -10,10 +10,7 @@
 
 // console.log(isEven(4));
 
-var i;
-
-if (i & 1) {
-  return "Es impar";
-} else {
-  return "Es par";
-}
+let a = +prompt("Primer numero");
+let b = +prompt("Segundo numero");
+alert(a * b);
+console.log(a * b);
