@@ -10,12 +10,10 @@
 
 // console.log(isEven(4));
 
-function isOddOrEven(i) {
-  if (i & 1) {
-    return "Es impar";
-  } else {
-    return "Es par";
-  }
-}
+var i;
 
-console.log(isOddOrEven(prompt("¿Que numero es?")));
+if (i & 1) {
+  return "Es impar";
+} else {
+  return "Es par";
+}
