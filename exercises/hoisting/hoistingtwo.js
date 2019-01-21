@@ -1,7 +1,3 @@
-//Test
-
-//SOLUCION SEGUNDO EJERCICIO.
-
 function hoistExample() {
   console.log("Value of a in local scope: ", a);
 }
