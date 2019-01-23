@@ -1,5 +1,4 @@
 //SOLUCION PRIMER EJERCICIO//
-
 //Se declara "a" en vez de "var a"
 //Esta es la gran diferencia. Pues las variables, sino están asignadas con 'var', transforman éstas en variables globales.
 

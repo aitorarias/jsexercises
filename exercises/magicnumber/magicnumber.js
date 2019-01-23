@@ -5,6 +5,7 @@ random = parseInt(random);
 
 while (true) {
   let user = prompt("Pon un número");
+  console.log(user);
 
   if (user == random) {
     alert("¡Has acertado! 🎉");
