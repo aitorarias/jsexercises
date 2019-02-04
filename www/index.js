@@ -1,19 +1,14 @@
-let max = 20;
-let min = 1;
-let random = Math.random() * (max - min) + min;
-random = parseInt(random);
+let promise = new Promise(function (resolve, reject) {
+  console.log("1");
+  setTimeout(function () {
+    resolve(console.log("2"));
+  }, 3000);
+});
 
-while (true) {
-  let user = prompt("Pon un número");
-
-  if (user == random) {
-    alert("¡Has acertado! 🎉");
-    break;
-  } else if (user == 0) {
-    break;
-  } else if (user < random) {
-    alert("El numero es menor que el numero magico. Inténtalo de nuevo 🕳️");
-  } else if (user > random) {
-    alert("EL numero es mayor que el numero magico Inténtalo de nuevo 🕳️");
-  }
-}
+promise.then(function () {
+  return console.log("3");
+}).then(function () {
+  return setTimeout(function () {
+    console.log("4");
+  }, 1000);
+});

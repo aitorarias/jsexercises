@@ -12,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "browser-sync": "^2.26.3"
+  },
+  "dependencies": {
+    "prisma": "^1.25.4"
   }
 }
